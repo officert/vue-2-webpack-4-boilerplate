@@ -6,14 +6,14 @@
 
 <script>
 export default {
-    name: 'AppMedium'
-};
+  name: 'AppMedium',
+}
 </script>
 
 <style lang="scss" scoped>
-    .title {
-        h1 {
-            color: red;
-        }
-    }
+.title {
+  h1 {
+    color: red;
+  }
+}
 </style>

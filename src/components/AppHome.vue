@@ -4,12 +4,12 @@
 
 <script>
 export default {
-    name: 'AppHome'
-};
+  name: 'AppHome',
+}
 </script>
 
 <style scoped>
-    h1  {
-        color: green;
-    }
+h1 {
+  color: green;
+}
 </style>
