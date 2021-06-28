@@ -10,10 +10,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
+@color:purple;
+
 .title {
   h1 {
-    color: red;
+    color: @color;
   }
 }
 </style>

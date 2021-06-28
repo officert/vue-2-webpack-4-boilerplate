@@ -38,19 +38,11 @@ const webpackConfig = {
         ],
       },
       {
-        test: /\.scss$/,
+        test: /\.less/,
         use: [
           isDev ? 'vue-style-loader' : MiniCSSExtractPlugin.loader,
           { loader: 'css-loader', options: { sourceMap: isDev } },
-          { loader: 'sass-loader', options: { sourceMap: isDev } },
-        ],
-      },
-      {
-        test: /\.sass$/,
-        use: [
-          isDev ? 'vue-style-loader' : MiniCSSExtractPlugin.loader,
-          { loader: 'css-loader', options: { sourceMap: isDev } },
-          { loader: 'sass-loader', options: { sourceMap: isDev } },
+          { loader: 'less-loader', options: { sourceMap: isDev } },
         ],
       },
     ],
